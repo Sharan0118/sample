@@ -1,5 +1,4 @@
 export default function handler(req, res) {
-
   const student = {
     name: "Rahul Sharma",
     progress: "75%",
@@ -9,5 +8,4 @@ export default function handler(req, res) {
   };
 
   res.status(200).json(student);
-
 }
