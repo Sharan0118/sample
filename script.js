@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/api/student")
+fetch("/api/student")
 .then(response => response.json())
 .then(data => {
 
